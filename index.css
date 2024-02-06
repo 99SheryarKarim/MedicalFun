@@ -1,0 +1,302 @@
+body{
+    overflow-x:hidden;
+}
+.appointment-para{
+    font-size: 24px;
+}
+#prt-two{
+    background: #B2E3FF
+}
+#prt-two img{
+    width:620px;
+    height: 570px;
+    position: relative;
+    right:140px;
+    top: 40px;
+}
+#apointed-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     position: relative;
+     left: 42px;
+    gap: 18px;
+}
+.font-weight-bold{
+    font-size: 40px;
+}
+.inner-container{
+    height: 100%;
+}
+.d-flex{
+    gap: 6px;
+}
+.col-4{
+    background: #B2E3FF
+}
+#activity{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.ml-5{
+    position: relative;
+    left: 70px;
+}
+.cards-container {
+    height: 75vh;
+    gap: 25px;
+}
+#svg1{
+    height: 50px;
+    width: 53px;   
+}
+.card {
+    width: 20px;
+    height: 300px;
+    margin-top: 12px;
+    border-top: none;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1); /* Adjust shadow values as needed */
+  }
+.cards img, h5, p{
+    margin-top: 12px;
+}
+.w-25{
+    height: 1.2px;
+    margin-right: 230px;
+}
+.flex{
+    width: 103%;
+    height: 90vh;
+    position: relative;
+    right: 20px;
+    background: #FFDCD1;
+}
+.mb-3{
+    position: relative;
+    right: 26px;
+}
+.container-custom {
+    height: 70vh;
+    background-color: #FFDCD1; /* Correct property name */
+  }
+  .container-custom .col-6 {
+    height: 100%;
+    background-color: #FFDCD1;
+  }
+  .col-12{
+    display: flex;
+  }
+#helo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#helo img{
+    width: 400px;
+    height: 350px;
+}
+.flexedd{
+    height: 4px;
+    width: 80px;
+    margin-right: 350px;
+}
+.hr-fnl{
+   right: 120px;
+}
+.bg-dark{
+    width: 130%;
+     position: relative;
+     right: 42px;
+}
+.ftr{
+    position: relative;
+    right: 120px;
+}
+.list-start {
+    display: flex;
+    flex-direction: column;
+}
+.list-start li {
+    margin-bottom: 5px; /* Optional: Add spacing between list items */
+}
+.list-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the flex container */
+  }
+  .list-start li {
+    margin-bottom: 5px; /* Optional: Add spacing between list items */
+  }
+  @media screen and (max-width:1245px){
+    *{
+        overflow-x:hidden;
+    }
+    #prt-two img{
+        width: 428px;
+        height: 441px;
+    }
+    .flexx{
+        display: none;
+    }
+    .col-4{
+        height: 96px;
+    }
+  }
+  @media screen and (max-width:1183px) {
+    body{
+        overflow-x:hidden;
+    }
+    #apointed-section {
+       
+        position: relative;
+        left: 42px;
+        top: 78px;
+    } 
+  }
+  @media screen and (max-width:1047px) {
+    #activity{
+        height: 0px;
+    }
+    .font-weight-bold {
+        font-size: 40px;
+    }
+    .appointment-para {
+        font-size: 14px;
+    }
+    body{
+        overflow-x:hidden;  
+    }
+.navbar{
+    background-color: white;
+}
+.col-4{
+    background-color: white;
+}
+#prt-two{
+   background-color: white; 
+}
+#prt-two img {
+    width: 407px;
+    height: 370px;
+}
+  }
+  @media screen and (max-width:770px) {
+    body{
+        overflow-x:hidden;  
+    }
+    #prt-two {
+        display: none;
+    }
+    .col-12{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 320px;
+        height: 319px;
+    }
+  }
+  @media (max-width: 768px) {
+    .img-fluid {
+        max-width: 30%;
+        height: auto;
+    }
+    .mb-3 {
+        position: relative;
+        right: 0px;
+    }
+    .flexedd {
+        height: 4px;
+        width: 80px;
+        margin-right: 497px;
+    }
+}
+
+
+.header {
+    background-image: url("assets/hero-shape-light-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    z-index: -1;
+}
+.navbar {
+    background: transparent;
+}
+.navbar-nav {
+    color: #737373;
+}
+.navbar-brand {
+    padding-left: 70px;
+}
+.join-us-button {
+    height: 53px;
+    width: 137px;
+    border-radius: 8px;
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+}
+.login {
+    color: #23A6F0;
+}
+.online-appoinment {
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+.online-appoinment-image {
+    background-image: url('assets/none.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 30px;
+}
+.online-appoinment-text-box {
+    margin-left: 7.5rem;
+    padding-top: 8.3rem;
+}
+.welcome-text {
+    font-size: 1.12em;
+    font-weight: 700;
+    color: #23A6F0;
+}
+.online-appoinment-heading {
+    font-size: 3.8em;
+    font-weight: bold;
+    color: #252B42;
+    line-height: 79px;
+    height: auto;
+}
+.online-appoinmennt-para {
+    color: #737373;
+    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 20px;
+    height: auto;
+}
+.get-quote-button {
+    width: 12.06rem;
+    height: 3.25rem;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    border: 1px solid #23A6F0;
+}
+.learn-more-button {
+    width: 10.375rem;
+    height: 3.25rem;
+    color: #23A6F0;
+    border-radius: 5px;
+    border: 1px solid #23A6F0;
+}
+
+
+
+
+
+
